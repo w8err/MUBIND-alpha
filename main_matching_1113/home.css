@@ -33,6 +33,7 @@
   color: rgb(184, 17, 184);
   transition: 0.3s;
 }
+
 .logo_text > h2:not(:hover) {
   color: #fff;
   transition: 0.3s;
