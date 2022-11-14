@@ -21,36 +21,29 @@
       <li><a href="#">LOGIN</a></li>
     </ul>
   </div>
-  <div class="table_area">
-  <table class="table_body">
-    <tr>
-      <th colspan="2">
-        글쓰기
-      </th>
-    </tr>
-    <tr>
-      <td width=50>
-        <select>
-          <option>작업물</option>
-        </select>
-      </td>
-      <td>
-        <input type="text" placeholder="제목을 입력하세요." maxlength=20 style="width:100%">
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" height=400>
-        <textarea placeholder="내용을 입력하세요." style="width: 100%; height: 100%"></textarea>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align=right>
-        <input type="button" value="글쓰기">
-        <input type="button" value="목록으로">
-      </td>
-    </tr>
-  </table>
-</div>
+  <table class="thead_area">
+    <tr class="thead">
+      <th id="row1"><div><img id="edit_img" src="img/테스트이미지.png"></div>
+        <button id="img_btn" type="button">이미지 삽입</button></th>
+      <th id="row2"><select id="option"><option>작업물</option></select></th>
+      <th id="row3"><input id="edit_title" placeholder="제목을 입력하세요." maxlength=20 type="text"></th></tr>
+      </table>
+      <table class="tbody">
+        <tr>
+          <td colspan="2" height=400>
+            <textarea class="edit_cont" placeholder="내용을 입력하세요."></textarea>
+          </td>
+        </tr>
+        <tr id="submit_option">
+          <td colspan="2" align=right>
+            <input id="chk_anony" type="checkbox" value="익명">
+            <label for="chk_anony">닉네임 비공개</label>
+            <input type="button" value="글쓰기">
+            <input type="button" value="목록으로">
+          </td>
+        </tr>
+      </table>
+    </div>
 </body>
 
 </html>

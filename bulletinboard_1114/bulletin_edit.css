@@ -1,3 +1,6 @@
+
+/*** 상단 헤더바 디자인. 모든 css에 포함됨 ***/
+
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); /* 폰트 불러오기 */
 
 html{
@@ -86,13 +89,53 @@ body{
   transition: 0.3s;
 }
 
-.table_area {
-  background-color: rgb(174, 143, 143);
-  width: auto; height: auto; 
+/*** 상단 헤더바 디자인 끝 ***/
+
+
+
+/** 글쓰기 테이블 디자인 **/
+
+.thead_area {
+  width: 610px; height: 300px;
+  margin: auto;
+  
 }
 
-.table_body {
-  border:1px solid #000;
-  width: 500px;
-
+.thead {  
+  width: 600px; height:300px;
 }
+#edit_title {
+  height: 30px;
+  padding-right: 160px;
+}
+#edit_img {
+  border:0px;
+  width: 180px; border-radius: 24px;
+}
+#img_btn {
+  width: 140px; height: 30px; 
+}
+
+.tbody {
+  width: 600px; margin:auto;
+}
+.edit_title {
+  padding-left: 10px;
+  outline: none;  border: none;
+  height: 40px; width: 98%;  
+  font-size: 20px;
+}
+
+.edit_cont {
+  width: 100%; height: 100%;
+  outline: none;
+}
+
+/** body 태그를 통해서 중앙정렬 ==> login 묶음 시리즈 **/
+
+
+
+
+
+
+
