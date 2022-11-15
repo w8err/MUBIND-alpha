@@ -130,30 +130,28 @@ td {
   height: 100px;
 }
 
-tr td:nth-child(1){
+  tr td:nth-child(1){
+  }
 
-}
-
-tr td:nth-child(2){
-
+  tr td:nth-child(2){
   width: 200px;
-}
-tr td:nth-child(2) img{
+  }
+  tr td:nth-child(2) img{
   width: 120px; height: 120px;
   border-radius: 15px;
-}
-#title {
+  }
+  #title {
   text-align: center;
-}
-tr td:nth-child(3){
+  }
+  tr td:nth-child(3){
   width: 300px; text-align: left;
-}
-tr td:nth-child(4){
+  }
+  tr td:nth-child(4){
+    
+  }
+  tr td:nth-child(5){
 
-}
-tr td:nth-child(5){
-
-}
+  }
 
 /* ********페이징******** */
 
@@ -176,12 +174,12 @@ tr td:nth-child(5){
 .page-nation a {
   display:block; margin:0 3px;
   float:left;
-  border:1px solid #e6e6e6;
+  border:1px solid #f9caed;
   width:28px;
   height:28px;
   line-height:28px;
   text-align:center;
-  background-color:rgb(211, 211, 211);
+  background-color:rgba(255, 255, 255, 0);
   font-size:13px;
   color:black;
   text-decoration:none;
@@ -189,6 +187,6 @@ tr td:nth-child(5){
 }
 
 .page-nation a:hover{
-  background-color:gray;
+  background-color:violet;
   color:white;
 }

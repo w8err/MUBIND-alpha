@@ -115,7 +115,6 @@ body{
 #img_btn {
   width: 140px; height: 30px; 
 }
-
 .tbody {
   width: 600px; margin:auto;
 }
@@ -125,10 +124,12 @@ body{
   height: 40px; width: 98%;  
   font-size: 20px;
 }
-
 .edit_cont {
   width: 100%; height: 100%;
   outline: none;
+}
+.submit_option {
+  background-color: aqua;
 }
 
 /** body 태그를 통해서 중앙정렬 ==> login 묶음 시리즈 **/
