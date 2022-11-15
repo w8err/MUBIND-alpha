@@ -26,3 +26,6 @@ Profile page
 요소 : O
 디자인 : X
 기능 : X
+
+* 아마 google login 시 nickName value를 받는 html이 필요할 거 같음
+* profile page 수정
