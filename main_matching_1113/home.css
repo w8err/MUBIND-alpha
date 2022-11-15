@@ -21,7 +21,7 @@
   margin-top: 30px;
 }
 
-.logo_text > h2 {
+.logo_text h2 a {
   position: fixed;
   color: rgb(255, 255, 255);
   font-family: 'Righteous', cursive; font-size: 30px;
@@ -29,12 +29,12 @@
 
 }
 
-.logo_text > h2:hover {
+.logo_text > h2 a:hover {
   color: rgb(184, 17, 184);
   transition: 0.3s;
 }
 
-.logo_text > h2:not(:hover) {
+.logo_text > h2 a:not(:hover) {
   color: #fff;
   transition: 0.3s;
 }
@@ -73,7 +73,7 @@
 
 .intro_text {
   width:auto;
-  margin:200px auto 213px auto; 
+  margin:150px auto 213px auto; 
   /* 상 / 우 / 하 / 좌 순으로 마진이 설정됨  */
   text-align: center;
 
