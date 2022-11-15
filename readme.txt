@@ -13,7 +13,9 @@ Main page
 기능 : X
 
 BulletinBoard page
-요소 : X
+요소 : O
+디자인 : 약간..?
+기능 : X
 
 Matching page
 요소 : O
