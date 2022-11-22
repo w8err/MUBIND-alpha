@@ -7,11 +7,11 @@
 .logo_text { z-index: 20; /* header보다 위로 올라오게 함 */
  width:30%; height:100px; margin-top: 30px; } 
 
-.logo_text h2 a { position: fixed; color: rgb(255, 255, 255); font-family: 'Righteous', cursive; font-size: 30px; cursor: pointer;}
+.logo { position: fixed; color: rgb(255, 255, 255); font-family: 'Righteous', cursive; font-size: 30px; cursor: pointer;}
 
-.logo_text > h2 a:hover { color: rgb(184, 17, 184); transition: 0.3s; } 
+.logo:hover { color: rgb(184, 17, 184); transition: 0.3s; } 
 
-.logo_text > h2 a:not(:hover) { color: #fff; transition: 0.3s; } 
+.logo:not(:hover) { color: #fff; transition: 0.3s; } 
 
 .header { z-index: 10; display: flex; width: 1300px; margin:auto; height: 86px; } 
 
